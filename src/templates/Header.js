@@ -1,10 +1,14 @@
+import rickandmortyImg from "../../public/images/rickandmorty-logo.png";
+import githubImg from "../../public/images/github-icon.svg";
+import linkedinImg from "../../public/images/linkedin-icon.svg";
+
 const Header = () => {
   const view = `
     <div class="Header-main">
       <div class="Header-logo">
         <h1>
           <a href="/spa-javascript-vanilla/#">
-            <img class="rickandmorty-logo" src="../../public/images/rickandmorty-logo.png">
+            <img class="rickandmorty-logo" src="${rickandmortyImg}" alt="Rick&Morty">
           </a>
         </h1>
       </div>
@@ -13,10 +17,10 @@ const Header = () => {
           About
         </a>-->
         <a target="_blank" href="https://github.com/diegocaminor/spa-javascript-vanilla">
-          <img class="social-icon" src="../../public/images/github-icon.svg" alt="GitHub">
+          <img class="social-icon" src="${githubImg}" alt="GitHub">
         </a>
         <a target="_blank" href="https://www.linkedin.com/in/diegocaminor/">
-          <img class="social-icon" src="../../public/images/linkedin-icon.svg" alt="LinkIn">
+          <img class="social-icon" src="${linkedinImg}" alt="LinkedIn">
         </a>
       </div>
     </div>
