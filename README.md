@@ -1,2 +1,4 @@
 # spa-javascript-vanilla
-Single page application utilizando la API de Rick and Morty
+Single Page Application with Vanilla JavaScript consuming Rick & Morty API
+
+![](demo-images/spa-vanilla-javascript.png)
